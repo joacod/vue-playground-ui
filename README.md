@@ -1,24 +1,19 @@
 # vue-playground-ui
+Vue Playground
 
-## Project setup
-```
-npm install
-```
+<p align="center">
+  <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/888px-Vue.js_Logo_2.svg.png">
+</p>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Notes
+The idea of this project is to provide a UI that consume the apis exposed in the following Web APIs repositories:
+- [NetCore.Playground.Api](https://github.com/joacod/NetCore.Playground.Api)
+- [go-playground-api](https://github.com/joacod/go-playground-api)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+*Both API projects implements the exact same endpoints.*
 
-### Lints and fixes files
-```
-npm run lint
-```
+What we get from this:
+- We have API implementations to download and hook up with our UI project.
+- We can practice different approaches in Vue
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Coming soon...
