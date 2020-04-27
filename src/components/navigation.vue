@@ -20,8 +20,8 @@
 
     <v-content>
       <v-container class="fill-height" fluid>
-        <v-row align="center" justify="center">
-          <v-col class="text-center">
+        <v-row align="center">
+          <v-col>
             <!-- Display Content Here -->
             <router-view></router-view>
           </v-col>

@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <LyricsSearch @search="search" />
-    <LyricsDisplay :lyric="lyric" />
-  </div>
+  <v-row>
+    <v-col cols="4">
+      <LyricsSearch @search="search" />
+    </v-col>
+    <v-col cols="8">
+      <LyricsDisplay :lyric="lyric" />
+    </v-col>
+  </v-row>
 </template>
 
 <script>
