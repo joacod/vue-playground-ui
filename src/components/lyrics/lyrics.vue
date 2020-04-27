@@ -1,11 +1,12 @@
 <template>
   <div>
-    <LyricsSearch />
-    <LyricsDisplay />
+    <LyricsSearch @search="search" />
+    <LyricsDisplay :lyric="lyric" />
   </div>
 </template>
 
 <script>
+import { services } from "../../services/services.js";
 import LyricsSearch from "./lyrics-search.vue";
 import LyricsDisplay from "./lyrics-display.vue";
 
@@ -15,11 +16,18 @@ export default {
     LyricsSearch,
     LyricsDisplay
   },
-  props: {
-    msg: String,
-    lyric: {
-      type: Object,
-      default: () => {}
+  props: {},
+  data() {
+    return {
+      lyric: {
+        type: Object,
+        default: () => {}
+      }
+    };
+  },
+  methods: {
+    async search(artist, song) {
+      this.lyric = await services.getLyrics(artist, song);
     }
   }
 };
