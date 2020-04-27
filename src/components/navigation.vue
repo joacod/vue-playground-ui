@@ -6,8 +6,8 @@
           <v-list-item-action>
             <v-icon>mdi-music</v-icon>
           </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>Lyrics</v-list-item-title>
+          <v-list-item-content>            
+            <v-list-item-title><router-link class="no-decoration" to="/">Lyrics</router-link></v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -23,7 +23,7 @@
         <v-row align="center" justify="center">
           <v-col class="text-center">
             <!-- Display Content Here -->
-            <Lyrics />
+            <router-view></router-view>
           </v-col>
         </v-row>
       </v-container>
@@ -31,7 +31,7 @@
 
     <v-footer color="indigo" app>
       <v-icon>mdi-light mdi-github</v-icon>
-      <a href="https://github.com/joacod/vue-playground-ui" class="footer-text">
+      <a href="https://github.com/joacod/vue-playground-ui" class="footer-text no-decoration">
         <span class="white--text">joacod/vue-playground-ui</span>
       </a>
     </v-footer>
@@ -39,12 +39,9 @@
 </template>
 
 <script>
-import Lyrics from "./lyrics/lyrics.vue";
-
 export default {
   name: "Navigation",
   components: {
-    Lyrics
   },
   props: {
     source: String
@@ -58,6 +55,9 @@ export default {
 <style lang="scss" scoped>
 .footer-text {
   margin-left: 5px;
+}
+.no-decoration {
   text-decoration: none;
+  color: inherit;
 }
 </style>

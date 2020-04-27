@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import { services } from "../../services/services.js";
-import LyricsSearch from "./lyrics-search.vue";
-import LyricsDisplay from "./lyrics-display.vue";
+import { services } from "../services/services.js";
+import LyricsSearch from "../components/lyrics/lyrics-search.vue";
+import LyricsDisplay from "../components/lyrics/lyrics-display.vue";
 
 export default {
   name: "Lyrics",
