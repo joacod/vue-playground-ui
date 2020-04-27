@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Navigation />    
+    <Navigation />
   </div>
 </template>
 
 <script>
-import Navigation from './components/navigation';
+import Navigation from "./components/navigation";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Navigation,
+    Navigation
   }
 };
 </script>

@@ -21,7 +21,7 @@
     <v-content>
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center">
-          <v-col class="text-center">            
+          <v-col class="text-center">
             <!-- Display Content Here -->
             <Lyrics />
           </v-col>
@@ -31,33 +31,33 @@
 
     <v-footer color="indigo" app>
       <v-icon>mdi-light mdi-github</v-icon>
-        <a href="https://github.com/joacod/vue-playground-ui" class="footer-text">
-            <span class="white--text">joacod/vue-playground-ui</span>
-        </a>
+      <a href="https://github.com/joacod/vue-playground-ui" class="footer-text">
+        <span class="white--text">joacod/vue-playground-ui</span>
+      </a>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import Lyrics from './lyrics/lyrics.vue'
+import Lyrics from "./lyrics/lyrics.vue";
 
-  export default {
-    name: "Navigation",
-    components: {
-        Lyrics
-    },
-    props: {
-      source: String,
-    },
-    data: () => ({
-      drawer: null,
-    }),
-  }
+export default {
+  name: "Navigation",
+  components: {
+    Lyrics
+  },
+  props: {
+    source: String
+  },
+  data: () => ({
+    drawer: null
+  })
+};
 </script>
 
 <style lang="scss" scoped>
 .footer-text {
-    margin-left: 5px;
-    text-decoration: none;
+  margin-left: 5px;
+  text-decoration: none;
 }
 </style>
