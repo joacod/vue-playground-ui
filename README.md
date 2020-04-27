@@ -3,6 +3,7 @@ Vue Playground using [Vuetify](https://vuetifyjs.com/)
 
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/888px-Vue.js_Logo_2.svg.png">
+  <img height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlOE7epYC7FIQtKkn0nkCme29AxdkkXRUvPVI0jotRuEv4ZdB&s">
 </p>
 
 ## Notes
