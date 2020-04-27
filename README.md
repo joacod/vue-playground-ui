@@ -1,5 +1,5 @@
-# vue-playground-ui
-Vue Playground
+# Vue.js Playground
+Vue Playground using [Vuetify](https://vuetifyjs.com/)
 
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/888px-Vue.js_Logo_2.svg.png">

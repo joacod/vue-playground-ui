@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Lyrics {{ msg }}</h2>
+        <h2>{{ msg }}</h2>
     </div>
 </template>
 
