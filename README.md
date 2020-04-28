@@ -1,5 +1,5 @@
 # Vue.js Playground
-Vue Playground using [Vuetify](https://vuetifyjs.com/)
+Vue Playground using [Vuetify](https://vuetifyjs.com/), [Axios](https://github.com/axios/axios) and [Vue-Router](https://github.com/vuejs/vue-router)
 
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/888px-Vue.js_Logo_2.svg.png">
